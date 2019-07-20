@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1563568279 source:c:\c++\ml\digit_recognizer\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<cstring>
+	"NeuralNetwork.h"
+
+1563542821 source:c:\c++\ml\digit_recognizer\costfunction.cpp
+	"Matrix.cpp"
+
+1563544550 c:\c++\ml\digit_recognizer\matrix.cpp
+	"Matrix.h"
+
+1563547203 source:c:\c++\ml\digit_recognizer\crossentropycostfunction.cpp
+	"CrossentropyCostFunction.h"
+
+1563542821 c:\c++\ml\digit_recognizer\costfunction.cpp
+	"Matrix.cpp"
+
+1563546699 source:c:\c++\ml\digit_recognizer\matrix.cpp
+	"Matrix.h"
+
+1563544825 source:c:\c++\ml\digit_recognizer\quadraticcostfunction.cpp
+	"QuadraticCostFunction.h"
+
+1563545055 c:\c++\ml\digit_recognizer\costfunction.h
+	"Matrix.h"
+
+1563544040 c:\c++\ml\digit_recognizer\xorshift.h
+
+1563546666 c:\c++\ml\digit_recognizer\matrix.h
+	<iostream>
+	<cmath>
+	<cassert>
+	"Xorshift.h"
+
+1563544951 c:\c++\ml\digit_recognizer\quadraticcostfunction.h
+	"CostFunction.h"
+
+1563544951 c:\c++\ml\digit_recognizer\crossentropycostfunction.h
+	"CostFunction.h"
+
+1563568582 source:c:\c++\ml\digit_recognizer\neuralnetwork.cpp
+	"NeuralNetwork.h"
+	<ctime>
+
+1563568197 c:\c++\ml\digit_recognizer\neuralnetwork.h
+	"QuadraticCostFunction.h"
+	"CrossentropyCostFunction.h"
+	<cstring>
+	<vector>
+	<algorithm>
+
