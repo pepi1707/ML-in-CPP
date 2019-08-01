@@ -31,14 +31,19 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="ConvLayer.h" />
 		<Unit filename="CostFunction.h" />
-		<Unit filename="CrossentropyCostFunction.cpp" />
 		<Unit filename="CrossentropyCostFunction.h" />
-		<Unit filename="Matrix.cpp" />
+		<Unit filename="DenseLayer.h" />
+		<Unit filename="Layer.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="LogCostFunction.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="Matrix.h" />
-		<Unit filename="NeuralNetwork.cpp" />
 		<Unit filename="NeuralNetwork.h" />
-		<Unit filename="QuadraticCostFunction.cpp" />
+		<Unit filename="PoolLayer.h" />
 		<Unit filename="QuadraticCostFunction.h" />
 		<Unit filename="Xorshift.h" />
 		<Unit filename="main.cpp" />

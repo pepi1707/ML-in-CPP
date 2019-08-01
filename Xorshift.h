@@ -22,6 +22,14 @@ public:
     {
         return next()%1000000001 / 1000000000.0;
     }
+
+    double rand_abs1()
+    {
+        double x = rand_01();
+        if(next() & 1)
+            return x;
+        return -x;
+    }
 };
 
 #endif // XORSHIFT_H_INCLUDED

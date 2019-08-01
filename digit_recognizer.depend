@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1563568279 source:c:\c++\ml\digit_recognizer\main.cpp
+1564666584 source:c:\c++\ml\digit_recognizer\main.cpp
 	<iostream>
 	<fstream>
 	<vector>
@@ -12,43 +12,78 @@
 1563544550 c:\c++\ml\digit_recognizer\matrix.cpp
 	"Matrix.h"
 
-1563547203 source:c:\c++\ml\digit_recognizer\crossentropycostfunction.cpp
+1563713832 source:c:\c++\ml\digit_recognizer\crossentropycostfunction.cpp
 	"CrossentropyCostFunction.h"
 
 1563542821 c:\c++\ml\digit_recognizer\costfunction.cpp
 	"Matrix.cpp"
 
-1563546699 source:c:\c++\ml\digit_recognizer\matrix.cpp
+1563656760 source:c:\c++\ml\digit_recognizer\matrix.cpp
 	"Matrix.h"
 
-1563544825 source:c:\c++\ml\digit_recognizer\quadraticcostfunction.cpp
+1563713828 source:c:\c++\ml\digit_recognizer\quadraticcostfunction.cpp
 	"QuadraticCostFunction.h"
 
-1563545055 c:\c++\ml\digit_recognizer\costfunction.h
+1564402724 c:\c++\ml\digit_recognizer\costfunction.h
+	<vector>
 	"Matrix.h"
 
-1563544040 c:\c++\ml\digit_recognizer\xorshift.h
+1564057073 c:\c++\ml\digit_recognizer\xorshift.h
 
-1563546666 c:\c++\ml\digit_recognizer\matrix.h
+1564050304 c:\c++\ml\digit_recognizer\matrix.h
 	<iostream>
 	<cmath>
 	<cassert>
 	"Xorshift.h"
 
-1563544951 c:\c++\ml\digit_recognizer\quadraticcostfunction.h
+1564402951 c:\c++\ml\digit_recognizer\quadraticcostfunction.h
 	"CostFunction.h"
 
-1563544951 c:\c++\ml\digit_recognizer\crossentropycostfunction.h
+1564403000 c:\c++\ml\digit_recognizer\crossentropycostfunction.h
 	"CostFunction.h"
 
-1563568582 source:c:\c++\ml\digit_recognizer\neuralnetwork.cpp
+1563718613 source:c:\c++\ml\digit_recognizer\neuralnetwork.cpp
 	"NeuralNetwork.h"
 	<ctime>
 
-1563568197 c:\c++\ml\digit_recognizer\neuralnetwork.h
+1564666615 c:\c++\ml\digit_recognizer\neuralnetwork.h
 	"QuadraticCostFunction.h"
 	"CrossentropyCostFunction.h"
+	"LogCostFunction.h"
+	"DenseLayer.h"
+	"ConvLayer.h"
+	"PoolLayer.h"
 	<cstring>
 	<vector>
 	<algorithm>
+	<ctime>
+	<random>
+
+1563718845 source:c:\c++\ml\digit_recognizer\matrix.h
+	<iostream>
+	<cmath>
+	<cassert>
+	"Xorshift.h"
+
+1564650875 c:\c++\ml\digit_recognizer\layer.h
+	<vector>
+	<algorithm>
+	<cmath>
+	<chrono>
+	<random>
+
+1564654884 c:\c++\ml\digit_recognizer\denselayer.h
+	<cstring>
+	"Layer.h"
+
+1564654896 c:\c++\ml\digit_recognizer\convlayer.h
+	"Layer.h"
+
+1564651655 c:\c++\ml\digit_recognizer\poollayer.h
+	"Layer.h"
+
+1564401822 c:\c++\ml\digit_recognizer\structure.h
+
+1564653632 c:\c++\ml\digit_recognizer\logcostfunction.h
+	"CostFunction.h"
 
